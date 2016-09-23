@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  #section1 {padding-top:60px;height:700px;color: #fff; background-color: #40E0D0;}
+  #section21 {padding-top:60px;height:700px;color: #fff; background-color: #1E88E5;}
+  #section22 {padding-top:60px;height:700px;color: #fff; background-color: #40E0D0;}
+  #section23 {padding-top:60px;height:700px;color: #fff; background-color: #1E88E5;}
+  #section24 {padding-top:60px;height:700px;color: #fff; background-color:#40E0D0;}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TaskProcess</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">OverAll View</a></li>
+          
+          
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Departments <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section21">Core Banking</a></li>
+              <li><a href="#section22">Private Banking</a></li>
+			  <li><a href="#section23">Foundation & Service</a></li>
+			  <li><a href="#section24">Legal & Compliance</a></li>
+			  
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid">
+<h3><center><u><b>OVER ALL VIEW</b></u></center></h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>MILESTONE</th>
+		<th>LIST OF TASK</th>
+        <th>NO.OF MEMBERS COMPLETED</th>
+        <th>TOTAL NO OF MEMBERS APPLICABLE</th>
+      </tr>
+    </thead>
+	 <tbody>
+
+      <tr class="default">
+	  <td>M1</td>
+        <td>INTRODUCTION CALL TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+      <tr class="default">
+	  <td>M2</td>
+        <td>INTRODUCTION E-MAIL TO NH</td>
+        <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+      <tr class="default">
+	  <td>M3</td>
+        <td>INFORMING THE NH THAT THE L.M WILL CONNECT</td>
+       <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M4</td>
+        <td>L.M CALL CONFIRMATION TO N.H</td>
+       <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M5</td>
+        <td>E-MAIL TO L.M FOR RECONFIRMING D.O.J OF N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M6</td>
+        <td>INFORMATION CALL TO N.H THAT THE UNIT HEAD WILL CONNECT</td>
+        <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M7</td>
+        <td>CONFIRMATION OF L.M RECEIVED THE PASSWORD</td>
+        <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M8</td>
+        <td>WELCOME MAIL</td>
+        <td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="50000"></td>
+      </tr>
+	  
+    </tbody>
+  </table>
+  <div align="right">
+  <td><button type="button" class="btn btn-default">
+<a href="mailto:xxx@gmail.com"><span class="glyphicon glyphicon-envelope"></span>E-mail</a></td>	
+	<td>&nbsp&nbsp&nbsp&nbsp
+	
+	<a href="#" onclick="window.print();return false;"><span class="glyphicon glyphicon-print"></span> Print</a>
+	
+    </a>
+	</td>
+	</div>
+</div>
+
+
+<div id="section21" class="container-fluid">
+  <h3><center><u><b>CORE BANKING</b></u></center></h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>MILESTONE</th>
+		<th>LIST OF TASK</th>
+        <th>NO.OF MEMBERS COMPLETED</th>
+        <th>TOTAL NO OF MEMBERS APPLICABLE</th>
+      </tr>
+    </thead>
+	 <tbody>
+
+      <tr class="default">
+	  <td>M1</td>
+        <td>INTRODUCTION CALL TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+      <tr class="default">
+	  <td>M2</td>
+        <td>INTRODUCTION E-MAIL TO NH</td>
+     <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td> 
+      </tr>
+      <tr class="default">
+	  <td>M3</td>
+        <td>INFORMING THE NH THAT THE L.M WILL CONNECT</td>
+       <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M4</td>
+        <td>L.M CALL CONFIRMATION TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M5</td>
+        <td>E-MAIL TO L.M FOR RECONFIRMING D.O.J OF N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M6</td>
+        <td>INFORMATION CALL TO N.H THAT THE UNIT HEAD WILL CONNECT</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M7</td>
+        <td>CONFIRMATION OF L.M RECEIVED THE PASSWORD</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M8</td>
+        <td>WELCOME MAIL</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  
+    </tbody>
+  </table>
+  <div align="right">
+  <td><button type="button" class="btn btn-default">
+<a href="#"><span class="glyphicon glyphicon-envelope"></span>E-mail</a></td>	
+	<td>&nbsp&nbsp&nbsp&nbsp
+	<a href="#"><span class="glyphicon glyphicon-print"></span> Print
+    </a>
+	</td>
+	</div>
+
+</div>
+<div id="section22" class="container-fluid">
+  <h3><center><u><b>PRIVATE BANKING</b></u></center></h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>MILESTONE</th>
+		<th>LIST OF TASK</th>
+        <th>NO.OF MEMBERS COMPLETED</th>
+        <th>TOTAL NO OF MEMBERS APPLICABLE</th>
+      </tr>
+    </thead>
+	 <tbody>
+
+      <tr class="default">
+	  <td>M1</td>
+        <td>INTRODUCTION CALL TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+      <tr class="default">
+	  <td>M2</td>
+        <td>INTRODUCTION E-MAIL TO NH</td>
+     <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td> 
+      </tr>
+      <tr class="default">
+	  <td>M3</td>
+        <td>INFORMING THE NH THAT THE L.M WILL CONNECT</td>
+       <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M4</td>
+        <td>L.M CALL CONFIRMATION TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M5</td>
+        <td>E-MAIL TO L.M FOR RECONFIRMING D.O.J OF N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M6</td>
+        <td>INFORMATION CALL TO N.H THAT THE UNIT HEAD WILL CONNECT</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M7</td>
+        <td>CONFIRMATION OF L.M RECEIVED THE PASSWORD</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M8</td>
+        <td>WELCOME MAIL</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  
+    </tbody>
+  </table>
+  <div align="right">
+  <td><button type="button" class="btn btn-default">
+<a href="#"><span class="glyphicon glyphicon-envelope"></span>E-mail</a></td>	
+	<td>&nbsp&nbsp&nbsp&nbsp
+	<a href="#"><span class="glyphicon glyphicon-print"></span> Print
+    </a>
+	</td>
+	</div>
+</div>
+<div id="section23" class="container-fluid">
+  <h3><center><u><b>FOUNDATION & SERVICE</b></u></center></h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>MILESTONE</th>
+		<th>LIST OF TASK</th>
+        <th>NO.OF MEMBERS COMPLETED</th>
+        <th>TOTAL NO OF MEMBERS APPLICABLE</th>
+      </tr>
+    </thead>
+	 <tbody>
+
+      <tr class="default">
+	  <td>M1</td>
+        <td>INTRODUCTION CALL TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+      <tr class="default">
+	  <td>M2</td>
+        <td>INTRODUCTION E-MAIL TO NH</td>
+     <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td> 
+      </tr>
+      <tr class="default">
+	  <td>M3</td>
+        <td>INFORMING THE NH THAT THE L.M WILL CONNECT</td>
+       <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M4</td>
+        <td>L.M CALL CONFIRMATION TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M5</td>
+        <td>E-MAIL TO L.M FOR RECONFIRMING D.O.J OF N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M6</td>
+        <td>INFORMATION CALL TO N.H THAT THE UNIT HEAD WILL CONNECT</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M7</td>
+        <td>CONFIRMATION OF L.M RECEIVED THE PASSWORD</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M8</td>
+        <td>WELCOME MAIL</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  
+    </tbody>
+  </table>
+  <div align="right">
+  <td><button type="button" class="btn btn-default">
+<a href="#"><span class="glyphicon glyphicon-envelope"></span>E-mail</a></td>	
+	<td>&nbsp&nbsp&nbsp&nbsp
+	<a href="#"><span class="glyphicon glyphicon-print"></span> Print
+    </a>
+	</td>
+	</div>
+
+</div>
+<div id="section24" class="container-fluid">
+  <h3><center><u><b>LEGAL & COMPLIANCE</b></u></center></h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>MILESTONE</th>
+		<th>LIST OF TASK</th>
+        <th>NO.OF MEMBERS COMPLETED</th>
+        <th>TOTAL NO OF MEMBERS APPLICABLE</th>
+      </tr>
+    </thead>
+	 <tbody>
+
+      <tr class="default">
+	  <td>M1</td>
+        <td>INTRODUCTION CALL TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+      <tr class="default">
+	  <td>M2</td>
+        <td>INTRODUCTION E-MAIL TO NH</td>
+     <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td> 
+      </tr>
+      <tr class="default">
+	  <td>M3</td>
+        <td>INFORMING THE NH THAT THE L.M WILL CONNECT</td>
+       <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M4</td>
+        <td>L.M CALL CONFIRMATION TO N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M5</td>
+        <td>E-MAIL TO L.M FOR RECONFIRMING D.O.J OF N.H</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M6</td>
+        <td>INFORMATION CALL TO N.H THAT THE UNIT HEAD WILL CONNECT</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M7</td>
+        <td>CONFIRMATION OF L.M RECEIVED THE PASSWORD</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  <tr class="default">
+	  <td>M8</td>
+        <td>WELCOME MAIL</td>
+        <td><input type="number" ng-model="quantity" min="1" max="4"></td>
+		<td><input type="number" ng-model="quantity" min="1" max="4"></td>
+      </tr>
+	  
+    </tbody>
+  </table>
+  <div align="right">
+  <td><button type="button" class="btn btn-default">
+<a href="#"><span class="glyphicon glyphicon-envelope"></span>E-mail</a></td>	
+	<td>&nbsp&nbsp&nbsp&nbsp
+	<a href="#"><span class="glyphicon glyphicon-print"></span> Print
+    </a>
+	</td>
+	</div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 90});
+});
+</script>
+
+</body>
+</html>
+
